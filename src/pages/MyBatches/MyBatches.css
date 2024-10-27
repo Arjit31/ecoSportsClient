@@ -1,0 +1,14 @@
+.page-layout {
+    background-color: #f2f5f8;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .batches-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f5f7fa;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .profile-icon img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }

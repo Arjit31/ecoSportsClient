@@ -1,0 +1,27 @@
+.coach-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .coach-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .coach-details {
+    flex-grow: 1;
+  }
+  
+  .join-batch-btn {
+    padding: 8px 16px;
+    background-color: #d8d9dc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
