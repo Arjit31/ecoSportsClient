@@ -8,13 +8,13 @@ import Rooms from './pages/Rooms/Rooms'
 function App() {
 
   return (
-    <>
-    <Topbar/>
-      {/* <FindCoach/> */}
-      {/* <Coach/> */}
-      {/* <MyBatches/> */}
-      <Rooms/>
-    </>
+    <div className='mainScreen'>
+      <Topbar/>
+        {/* <FindCoach/> */}
+        {/* <Coach/> */}
+        <MyBatches/>
+        {/* <Rooms/> */}
+    </div>
   )
 }
 

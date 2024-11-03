@@ -5,12 +5,14 @@ const batches = [
   {
     image: 'https://via.placeholder.com/150',
     title: 'Marathon Training',
-    dateRange: 'Apr 25 - Aug 7'
+    dateRange: 'Apr 25 - Aug 7',
+    timing: '10:00'
   },
   {
     image: 'https://via.placeholder.com/150',
     title: 'July Core Challenge',
-    dateRange: 'Jul 1 - Jul 31'
+    dateRange: 'Jul 1 - Jul 31',
+    timing: '13:00'
   }
 ];
 
@@ -23,6 +25,7 @@ const BatchesList = () => {
           image={batch.image}
           title={batch.title}
           dateRange={batch.dateRange}
+          timing={batch.timing}
         />
       ))}
     </div>

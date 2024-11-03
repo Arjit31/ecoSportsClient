@@ -1,8 +1,14 @@
+.topBar{
+  border-radius: 20px 20px 0 0;
+  background-color:#F8FAFB;
+  border-bottom: 1px solid #DEE7ED;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    background-color: #f5f7fa;
+    padding: 1.5rem 3rem;
+    /* background-color: #f5f7fa; */
+    margin: 0;
   }
   
   .logo {
@@ -10,12 +16,12 @@
   }
   
   .menu a {
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
     color: black;
   }
   
-  .profile-icon img {
+  .menu img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
