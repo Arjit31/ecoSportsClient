@@ -8,7 +8,7 @@ export default function Topbar() {
           <div className="menu">
             <a href="#">Community</a>
             <a href="#">Coaches</a>
-            <a href="#">MyBatches</a>
+            <a href="#">My Batches</a>
             <a href="#"><img src="profile_pic_url" alt="Profile" /></a>
           </div>
         </nav>

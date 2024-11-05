@@ -5,27 +5,32 @@ const CoachList = () => {
   const coaches = [
     {
       name: "Meghan Arbogast",
-      specialties: "Marathon, half marathon, 10k, 5k",
+      specialties: "Football",
+      batches: 6,
       img: "meghan_img_url"
     },
     {
       name: "Pam Smith",
-      specialties: "Marathon, half marathon, 10k, 5k",
+      specialties: "Cricket",
+      batches: 3,
       img: "pam_img_url"
     },
     {
       name: "David Roche",
-      specialties: "Marathon, half marathon, 10k, 5k",
+      specialties: "Basketball",
+      batches: 5,
       img: "david_img_url"
     },
     {
       name: "Samantha Gash",
-      specialties: "Marathon, half marathon, 10k, 5k",
+      specialties: "Cricket",
+      batches: 4,
       img: "samantha_img_url"
     },
     {
       name: "Michael Wardian",
-      specialties: "Marathon, half marathon, 10k, 5k",
+      specialties: "Football",
+      batches: 2,
       img: "michael_img_url"
     }
   ];

@@ -4,12 +4,15 @@ import './coachCard.css'
 const CoachCard = ({ coach }) => {
   return (
     <div className="coach-card">
-      <img src={coach.img} alt={coach.name} className="coach-img" />
-      <div className="coach-details">
-        <h3>{coach.name}</h3>
-        <p>{coach.specialties}</p>
+      <div className='wrapperCoach'>
+        <img src={coach.img} alt={coach.name} className="coach-img" />
+        <div className="coach-details">
+          <h3>{coach.name}</h3>
+          <p>{coach.specialties}</p>
+          <p>{coach.batches} batches</p>
+        </div>
       </div>
-      <button className="join-batch-btn">Join batch</button>
+      <button className="join-batch-btn">View batches</button>
     </div>
   );
 };

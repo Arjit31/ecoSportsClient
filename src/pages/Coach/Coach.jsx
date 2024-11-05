@@ -1,14 +1,20 @@
-import CoachProfile from "../../components/coachProfile/CoachProfile";
 import BatchesList from "../../components/BatchesList/BatchesList";
 import "./Coach.css";
+
+const coach = {
+  name: "Michael Wardian",
+  specialties: "Football",
+  batches: 2,
+  img: "https://via.placeholder.com/150"
+}
 
 const Coach = () => {
   return (
     <div className="page-layout">
       <div className="content">
-        <h2>Running</h2>
-        <p>Running, 4 workouts</p>
-        <CoachProfile />
+        <img src={coach.img} alt="." className="coachMainImg" />
+        <h2 className="coachName">{coach.name}</h2>
+        <p className="coachSports">{coach.specialties}</p>
         <BatchesList/>
       </div>
     </div>

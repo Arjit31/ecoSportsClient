@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import Coach from './pages/Coach/Coach'
 import FindCoach from './pages/FindCoach/FindCoach'
@@ -10,10 +11,15 @@ function App() {
   return (
     <div className='mainScreen'>
       <Topbar/>
-        {/* <FindCoach/> */}
         {/* <Coach/> */}
-        <MyBatches/>
-        {/* <Rooms/> */}
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<FindCoach />} />
+            <Route path="/myBatches" element={<MyBatches />} />
+            <Route path="/rooms" element={<Rooms />} />
+          </Routes>
+        </BrowserRouter>
+
     </div>
   )
 }

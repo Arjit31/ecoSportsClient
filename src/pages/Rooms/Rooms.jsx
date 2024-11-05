@@ -3,13 +3,11 @@ import './Rooms.css';
 
 const Rooms = () => {
   return (
-    <div className="app-container">
-      <div className="main-content">
-        <div className="communities-section">
-          <Community name="Basketball" members="No of Members" image="basketball-placeholder.jpg" />
-          <Community name="Cricket" members="No of Members" image="cricket-placeholder.jpg" />
-          <Community name="Football" members="No of Members" image="football-placeholder.jpg" />
-        </div>
+    <div className="main-content">
+      <div className="communities-section">
+        <Community name="Basketball" members="No of Members" image="https://via.placeholder.com/150" />
+        <Community name="Cricket" members="No of Members" image="https://via.placeholder.com/150" />
+        <Community name="Football" members="No of Members" image="https://via.placeholder.com/150" />
       </div>
     </div>
   );

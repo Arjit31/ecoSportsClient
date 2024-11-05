@@ -3,12 +3,14 @@ import './FindCoach.css';
 
 export default function FindCoach(){
     return (
-        <div className="app-container">
-            <div className="coach-finder">
+
+        <div className="coach-finder">
+            <div className='wrapSearch'>
                 <h1>Find a coach</h1>
                 <input type="text" placeholder="Search by name" className="search-bar" />
-                <CoachList />
             </div>
+            <CoachList />
         </div>
+
     );
 }
