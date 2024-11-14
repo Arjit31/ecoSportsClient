@@ -6,9 +6,9 @@
     background-color: #ffffff;
     border-radius: 10px;
     margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 350px;
-    width: 350px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    width: 250px;
   }
   
   .community-img {
@@ -31,25 +31,26 @@
   }
   
   .community-info h3 {
-    font-size: 18px;
+    font-size: 14px;
     color: #383E43;;
     margin: 0;
   }
   
   .community-info p {
-    font-size: 14px;
+    font-size: 12px;
     color: #6D92A0;
     margin: 0;
 
   }
   
   .join-btn {
-    background-color: rgb(71, 147, 147);
-    color: #f6f7f8;
-    padding: 10px 10px;
+    background-color: #383E43;;
+    color: #E8EEF2;
+    padding: 5px 10px;
     border: none;
     border-radius: 0 0 10px 10px;
     cursor: pointer;
     width: 100%;
   }
+
   

@@ -8,6 +8,8 @@ const Rooms = () => {
         <Community name="Basketball" members="No of Members" image="https://via.placeholder.com/150" />
         <Community name="Cricket" members="No of Members" image="https://via.placeholder.com/150" />
         <Community name="Football" members="No of Members" image="https://via.placeholder.com/150" />
+        <Community name="Tennis" members="No of Members" image="https://via.placeholder.com/150" />
+        <Community name="Badminton" members="No of Members" image="https://via.placeholder.com/150" />
       </div>
     </div>
   );

@@ -6,8 +6,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 3rem;
-    /* background-color: #f5f7fa; */
+    padding: 1.2rem 3rem;
     margin: 0;
   }
   
@@ -26,4 +25,21 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+  }
+
+  .loginButton{
+    padding: 5px 10px;
+    background-color: #E8EEF2;
+    color: #383E43;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .registerButton{
+    padding: 5px 10px;
+    background-color: #383E43;
+    color: #E8EEF2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
   }

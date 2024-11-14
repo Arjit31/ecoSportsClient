@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 20px;
+    padding: 0px;
   }
   
   .communities-section {
@@ -18,6 +18,7 @@
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    padding: 20px;
   }
   .communities-section::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
